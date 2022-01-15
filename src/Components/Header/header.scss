@@ -1,0 +1,297 @@
+.header-main-container{
+
+    width: 100%;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.header-container{
+    width: 100%;
+    padding: 1rem;
+    background-color: #000000;
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.header-item{
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    margin-right: 1rem;
+   
+   
+}
+
+.header-item-icon{
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    margin-right: .5rem;
+
+}
+
+.header-item-text{
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+
+    color: white;
+    
+}
+
+.header-logo{
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    color: #1A246A;
+    text-transform: uppercase;
+    font-family: roboto;
+    font-size: 13px;
+    letter-spacing: .5px;
+   
+
+    img{
+        width: 40px;
+        margin-right: .8rem;
+    }
+}
+
+.header-navigator{
+
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1.5rem;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    z-index: 10;
+    border-bottom: 2px solid #EB3751;
+
+
+   ul{
+       list-style: none;
+       padding: 0;
+       margin: 0;
+
+       display: flex;
+       flex-direction: row;
+       align-items: center;
+       justify-content: flex-end;
+
+       margin-right: 1rem;
+
+       li{
+           margin-left: 1.7rem;
+           font-weight: bold;
+
+           height: 100%;
+
+           a {
+            color: rgb(0, 0, 0);
+          }
+          a:hover {
+             color: #EB3751;
+          }
+
+       }
+   }
+
+
+}
+
+.for-mobile{
+    display: none !important;
+}
+
+.for-web{
+    display: flex !important;;
+}
+
+.thumbs{
+    display: none;
+}
+
+.responsive-sidebar{
+
+    display: none;
+}
+
+
+
+
+@media screen and (max-width: 967px) {
+
+    .for-mobile{
+        display: flex !important;;
+    }
+
+    .for-web{
+        display: none !important;;
+    }
+    
+
+
+
+    .header-logo{
+
+        font-size: 8px;
+       
+        img{
+            width: 30px;
+        }
+    }
+
+    .header-navigator{
+
+        padding: .5rem 1rem;
+      
+    
+       ul{
+           list-style: none;
+           padding: 0;
+           margin: 0;
+    
+           display: flex;
+           flex-direction: row;
+           align-items: center;
+           justify-content: flex-end;
+    
+           margin-right: 1rem;
+    
+           li{
+               margin-left: 1rem;
+               font-weight: bold;
+    
+               height: 100%;
+    
+               a {
+                color: rgb(0, 0, 0);
+              }
+              a:hover {
+                 color: rgb(48, 48, 48)
+              }
+    
+           }
+       }
+    
+    
+    }
+
+
+    .header-container{
+
+    
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+    }
+    
+
+    .header-item-text{
+
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: flex-start;
+        font-size: 11px;
+    
+        color: white;
+        
+    }
+
+    .header-item{
+
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: flex-start;
+        margin-right: 0px;
+       
+       
+    }
+
+    .responsive-sidebar{
+
+        display: flex;
+        flex-direction: column;
+        position: fixed;
+        width: 50%;
+        background: rgb(255, 255, 255);
+        box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+        transition-duration: .5s;
+        top: 0;
+        bottom: 0;
+        right: 0;
+        padding: 1rem .8rem;
+        
+
+        ul{
+            flex-direction: column;
+            align-items: flex-start;
+            justify-content: flex-start;
+            width: 100%;
+            margin-top: 1rem;
+
+            li{
+                margin-top: 1rem;
+                width: 100%;
+                margin: 0;
+                padding: .5rem .5rem;
+                color: black;
+                border-radius: 4px;
+            }
+
+            .active{
+                background-color: black;
+                
+                
+                a{
+                    color: white !important;
+                }
+              
+            }
+        }
+      
+       
+    }
+    .visible{
+
+    }
+
+    .hidden{
+        top: 0;
+        bottom: 0;
+        right: -50%;
+    }
+
+    .sidebar-logo{
+
+        display: flex;
+        flex-direction: row;
+        font-size: 12px;
+
+        img{
+            width: 40px;
+            height: 40px;
+        }
+    }
+    
+
+
+}

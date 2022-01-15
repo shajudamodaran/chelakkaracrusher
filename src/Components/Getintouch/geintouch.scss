@@ -1,0 +1,202 @@
+.form-container{
+
+
+    width: 80%;
+    padding: 2rem;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    .header{
+
+        font-size: 1.5rem;
+        font-family: roboto;
+        font-weight: 600;
+        font-family: "Raleway", sans-serif;
+        letter-spacing: .5px;
+
+    }
+
+    .caption{
+
+        font-size: .9rem;
+        font-family: 'roboto';
+        font-weight: normal;
+        color: #686868;
+        letter-spacing: .5px;
+        text-align: center;
+        margin-top: 1.5rem;
+        line-height: 1.5rem;
+       
+    }
+
+    .underline{
+
+        width: 100px;
+        border-bottom: 1.5px solid red;
+        margin-top: 1.5rem;
+        margin-bottom: 2rem;
+    }
+}
+
+.products-list{
+
+    width: 100%;
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 1.5rem;
+
+    
+}
+
+
+.callback-form-container{
+    width: 100%;
+
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-between;
+    background-color: white;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+    border: 1px solid #ffe0e5;
+  
+    overflow: hidden;
+    border-radius: 8px;
+    margin-bottom: 3rem;
+
+    .form{
+        width: 50%;
+       flex:1;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: flex-start;
+        padding: 1rem 5%;
+
+        .caption{
+            font-size: 12px;
+            color: #8d8d8d;
+            letter-spacing: .5px;
+        }
+
+        .form-item{
+            width: 100%;
+            margin-top: 1.5rem;
+        }
+       
+    }
+
+    .image{
+       width: 50%;
+      
+
+       img{
+        height: 350px;
+       }
+      
+    }
+}
+
+
+
+@media screen and (max-width: 967px) {
+
+    .form-container{
+
+
+        width: 100%;
+        padding: 2rem;
+    
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    
+        .header{
+    
+            font-size: 1.5rem;
+            font-family: roboto;
+            font-weight: 600;
+            font-family: "Raleway", sans-serif;
+            letter-spacing: .5px;
+    
+        }
+    
+        .caption{
+    
+            font-size: .8rem;
+            font-family: 'roboto';
+            font-weight: normal;
+            color: #686868;
+            letter-spacing: .5px;
+            text-align: center;
+            margin-top: 1.5rem;
+            line-height: 1.5rem;
+           
+        }
+    
+        .underline{
+    
+            width: 100px;
+            border-bottom: 1.5px solid red;
+            margin-top: 1.5rem;
+            margin-bottom: 2rem;
+        }
+    }
+
+    .callback-form-container{
+        width: 100%;
+
+        display: flex;
+        flex-direction: column-reverse;
+        align-items:center;
+        justify-content: flex-start;
+
+        margin-bottom: 1rem;
+        
+        .form{
+            width: 100%;
+           flex:1;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: flex-start;
+            padding: 1rem 5%;
+    
+            .caption{
+                font-size: 12px;
+                color: #8d8d8d;
+                letter-spacing: .5px;
+            }
+    
+            .form-item{
+                width: 100%;
+                margin-top: 1.5rem;
+            }
+           
+        }
+    
+        .image{
+           width: 100%;
+          
+    
+           img{
+           width: 100%;
+           object-fit: contain;
+           height: fit-content;
+           }
+          
+        }
+    }
+    
+
+   
+
+}

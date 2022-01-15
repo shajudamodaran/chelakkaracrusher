@@ -1,0 +1,230 @@
+.product-item-container{
+    width: 30%;
+   
+   
+    margin: .5rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+
+      .product
+      {
+        width: 100%;
+        height: 290px;
+        
+        margin: .5rem;
+        cursor: pointer;
+        overflow: hidden;
+        object-fit: cover;
+        background-size: cover;
+
+        img{
+            height: 100%;
+            width: 100%;
+            object-fit: cover;
+        }
+
+        .product-details{
+            background-color: rgba(0, 0, 0, 0.103);
+            height: 100%;
+            width: 100%;
+            transition-duration: .5s;
+
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            justify-content: flex-end;
+            padding: 1rem;
+
+            span{
+                font-size: 2rem;
+                color: white;
+                font-weight: 500;
+               
+            }
+
+            .caption{
+                font-size: 1rem;
+                color: white;
+                font-weight: 400;
+                margin-bottom: .5rem;
+                font-family: roboto;
+                transition-duration: .5s;
+               
+            }
+
+            button{
+
+              
+               height: 0px;
+               overflow: hidden;
+               background-color: #EB3751;
+               min-width: 150px;
+               transition-duration: .5s;
+               outline: 0;
+               border: 0px;
+               color: white;
+               padding: 0;
+            }
+
+            
+        }
+
+        .product-details:hover{
+            background-color: rgba(0, 0, 0, 0.342);
+            height: 100%;
+            width: 100%;
+            transition-duration: .5s;
+
+            button{
+
+                height: 45px;
+                border-radius: 5px;
+              
+            }
+
+            .caption{
+                font-size: 1rem;
+                color: white;
+                font-weight: 400;
+                margin-bottom: .5rem;
+                font-family: roboto;
+                background-color: transparent;
+                transition-duration: .5s;
+               
+            }
+        }
+    }
+
+    .metal-product{
+
+        background-image: url("../../../Assets/Images/metal.jpg");
+
+    }
+
+    .mm6{
+
+        background-image: url("../../../Assets/Images/products/6mm.jpg");
+
+    }
+
+    .mm12{
+
+        background-image: url("../../../Assets/Images/products/12mm.jpg");
+
+    }
+
+    .mm20{
+
+        background-image: url("../../../Assets/Images/products/20mm.gif");
+
+    }
+
+    .cs{
+
+        background-image: url("../../../Assets/Images/products/cs.jpeg");
+
+    }
+
+    .gs{
+
+        background-image: url("../../../Assets/Images/products/gs.jpeg");
+
+    }
+
+    // .sand-product{
+
+    //     background-image: url("../../Assets/Images/sand.jpg");
+
+    // }
+
+    // .p6-product{
+
+    //     background-image: url("../../Assets/Images/products/6mm.jpg");
+
+    // }
+
+    // .p12-product{
+
+    //     background-image: url("../../Assets/Images/products/12mm.jpg");
+
+    // }
+
+    // .p20-product{
+
+    //     background-image: url("../../Assets/Images/products/20mm.gif");
+
+    // }
+
+    // .Cg-product{
+
+    //     background-image: url("../../Assets/Images/products/CGsand.jpg");
+
+    // }
+
+    
+}
+
+
+@media screen and (max-width: 967px) {
+
+    .product-item-container{
+        width: 100%;
+       
+          .product
+          {
+           
+    
+            img{
+                
+            }
+    
+            .product-details{
+                
+    
+                span{
+                    font-size: 1.5rem;
+                    color: white;
+                    font-weight: 500;
+                   
+                }
+    
+                button{
+    
+                  
+                   height: 0px;
+                   overflow: hidden;
+                   background-color: #EB3751;
+                   min-width: 150px;
+                   transition-duration: .5s;
+                   outline: 0;
+                   border: 0px;
+                   color: white;
+                   padding: 0;
+                }
+    
+                
+            }
+    
+            .product-details:hover{
+                background-color: rgba(0, 0, 0, 0.342);
+                height: 100%;
+                width: 100%;
+                transition-duration: .5s;
+    
+                button{
+    
+                    height: 45px;
+                    border-radius: 5px;
+                  
+                }
+            }
+        }
+
+        
+    }
+    
+
+
+}
