@@ -42,7 +42,7 @@ function ContactUs() {
                             Mobile :</div>
                         <div className="content">
                         <img src={mobileIcon} alt="" /> 
-                             +91 944 729 3773</div>
+                        +91 755 9988 733</div>
 
                         <div className="sub-head">
                         
