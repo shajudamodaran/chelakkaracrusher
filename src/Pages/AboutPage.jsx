@@ -16,11 +16,11 @@ function AboutPage() {
 
                     <div className="item-body">
                         <p>
-                            We are the trusted manufactures of crusher products, Since 2012, at Chelakkara, Thrissur, India. Huge amount of satisfied customers are the strength of us, to work forward under the leadership of our managing partner Mr. K.R Vishwanathan. our products are 6mm, 12mm, 20mm, Crushed granite sand (CG Sand) etc...
+                            We are the trusted manufactures of crusher products, Since 2012, at Chelakkara, Thrissur, India. Huge amount of satisfied customers are the strength of us, to work forward under the leadership of our managing partner Mr. K.R Viswanathan. our products are 6mm, 12mm, 20mm, Crushed granite sand (CG Sand) etc...
                         </p>
 
                         <p>
-                            We have an excellent customer support tea for providing nessory serviceto our dear customers at any time. Our team assured that our product CG sand is sturdy and moreprofitable than traditional sand.
+                            We have an excellent customer support for providing nessory service to our dear customers at any time. Our team assured that our product CG sand is sturdy and more profitable than traditional sand.
                         </p>
 
                         <div className='other-details'>
