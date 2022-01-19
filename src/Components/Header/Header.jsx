@@ -46,7 +46,7 @@ function Header() {
                     </div>
 
                     <div className="header-item-text">
-                        +91 944 729 3773
+                        +91 755 9988 733
                     </div>
 
                 </div>

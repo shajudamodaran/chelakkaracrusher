@@ -19,8 +19,8 @@ function OurProducts() {
                 <ProductItem variant="mm12" name="12mm"/>
                 <ProductItem variant="mm20" name="20mm"/>
 
-                <ProductItem variant="cs" name="Crystal Sand" caption="Exclusively for Plastering"/>
-                <ProductItem variant="gs" name="Grand Sand" caption="Exclusively for Concreating"/>
+                <ProductItem variant="cs" name="Crystal Sand"  caption="Exclusively for Concreating" />
+                <ProductItem variant="gs" name="Grand Sand" caption="Exclusively for Plastering"/>
             </div>
         </div>
     )
