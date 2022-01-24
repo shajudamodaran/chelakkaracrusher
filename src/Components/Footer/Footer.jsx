@@ -26,7 +26,7 @@ function Footer() {
                     </div>
                     <div className="col-md-4 col-sm-12 col-12 footer-address d-flex justify-content-end">
                         QUICK CONTACT<br />
-                        Chelakkara Crusher, Cholammakkavu, <br />Killimangalam PO, chelakkara, <br />Kerala PIN:680591, India<br />
+                        Chelakkara Granite, Cholammakkavu, <br />Killimangalam PO, chelakkara, <br />Kerala PIN:680591, India<br />
                         Customercare : +91 755 9988 733,<br />
                         Office : +91 755 898 1333, +91 755 898 1444,<br />
                         E-mail : chelakkaracrusher@gmail.com
