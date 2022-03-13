@@ -64,3 +64,17 @@ export const EnquireNowIcon = () => {
     )
 }
 
+
+export const NextBtnIcon = () => {
+    return (
+        <svg width="30" height="30" viewBox="0 0 31 31" fill="none" xmlns="http://www.w3.org/2000/svg"><circle cx="15.5" cy="15.5" r="15.5" fill="#C4C4C4"></circle><path d="M11 22.12L17.1808 16L11 9.88L12.9028 8L21 16L12.9028 24L11 22.12Z" fill="white"></path></svg>
+    )
+}
+
+export const PrevBtnIcon = () => {
+    return (
+        <svg width="30" height="30" viewBox="0 0 31 31" fill="none" xmlns="http://www.w3.org/2000/svg" ><circle cx="15.5" cy="15.5" r="15.5" fill="#C4C4C4"></circle><path d="M20 9.88L13.8192 16L20 22.12L18.0972 24L10 16L18.0972 8L20 9.88Z" fill="white"></path></svg>
+    )
+}
+
+
