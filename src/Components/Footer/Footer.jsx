@@ -11,7 +11,7 @@ function Footer() {
                         <p>
                             © Copyright 2021 by chelakkaracrusher.com. All rights reserved.<br />
                             Privacy Policy - Terms and Conditions<br />
-                            Website developed by ........................
+                            Website developed by Ather Creations
                         </p>
                     </div>
                     <div className="col-md-4 col-sm-12 col-12 footer-connect d-flex justify-content-center">

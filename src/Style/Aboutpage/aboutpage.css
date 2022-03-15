@@ -147,10 +147,183 @@
   cursor: pointer;
 }
 
+.other-resources {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+}
+
+.other-resources .resource-table {
+  width: 100%;
+  margin-top: 2rem;
+}
+
+.other-resources .resource-table .pdf-icon {
+  margin: 0px !important;
+  width: 25px;
+  cursor: pointer;
+}
+
+.other-resources .resource-table tr th {
+  background-color: black;
+  border: 1px sild black;
+  color: white;
+  padding: 0.5rem 1rem;
+}
+
+.other-resources .resource-table tr td {
+  padding: 0.8rem 1rem;
+  font-size: 13px;
+  line-height: 25px;
+}
+
+.other-resources .resource-table tr td b {
+  font-size: 15px;
+}
+
+.other-resources .resource-table tr :nth-child(4) {
+  text-align: center;
+}
+
+.other-resources .resource-table tr :nth-child(1) {
+  text-align: center;
+}
+
+.other-resources .resource-table th:nth-child(1) {
+  border-top-left-radius: 5px;
+}
+
+.other-resources .resource-table th:nth-child(4) {
+  border-top-right-radius: 5px;
+}
+
+.other-resources .resource-table td:nth-child(4) {
+  border-right: 1px solid #d4d4d4;
+}
+
+.other-resources .resource-table td:nth-child(1) {
+  border-left: 1px solid #d4d4d4;
+}
+
+.other-resources .resource-table :last-child td {
+  border-bottom: 1px solid #d4d4d4;
+}
+
+.other-resources .resource-table tr:nth-child(odd) {
+  background-color: #f8f8f8;
+}
+
+.resource-table-small {
+  display: none;
+}
+
 @media screen and (max-width: 967px) {
   .about-content {
     width: 80%;
     text-align: justify;
+  }
+  .other-resources {
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+  }
+  .other-resources .resource-table {
+    display: none;
+  }
+  .resource-table-small {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+    width: 100%;
+    margin-top: 1rem;
+  }
+  .resource-table-small .resource-card {
+    width: 100%;
+    padding: 1rem;
+    background-color: white;
+    border-radius: 5px;
+    -webkit-box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+            box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+    line-height: 20px;
+    font-size: 12px;
+    text-align: start;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    margin-bottom: .8rem;
+  }
+  .resource-table-small .resource-card b {
+    font-size: 15px;
+  }
+  .resource-table-small .resource-card .download {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+    margin-top: .5rem;
+    margin-left: .8rem;
+  }
+  .resource-table-small .resource-card .download span {
+    margin-left: .5rem;
+  }
+  .resource-table-small .resource-card img {
+    margin: 0px !important;
+    width: 25px;
   }
 }
 /*# sourceMappingURL=aboutpage.css.map */
