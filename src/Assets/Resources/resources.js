@@ -1,5 +1,10 @@
 export const resources = [
     {
+        name:"<b>First Half Compliance Report</b>  <br /> For the period April 2018 – September 2018",
+        fileName:"7.pdf",
+        date:"16 March 2022"
+    },
+    {
         name:"<b>Second Half Compliance Report</b><br /> For the period up to October 2018- March 2019",
         fileName:"1.pdf",
         date:"16 March 2022"
@@ -29,4 +34,5 @@ export const resources = [
         fileName:"6.pdf",
         date:"16 March 2022"
     }
+   
 ]

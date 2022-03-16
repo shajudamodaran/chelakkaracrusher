@@ -94,37 +94,44 @@ function AboutPage() {
 
                             <tr>
                                 <td>1</td>
+                                <td><b>First Half Compliance Report</b>  <br /> For the period April 2018 – September 2018</td>
+                                <td>16 March 2022</td>
+                                <td><img onClick={() => { downloadReport(require('../Assets/Resources/7.pdf')) }} className='pdf-icon' src="https://upload.wikimedia.org/wikipedia/commons/8/87/PDF_file_icon.svg" alt="" /></td>
+                            </tr>
+
+                            <tr>
+                                <td>2</td>
                                 <td><b>Second Half Compliance Report</b><br /> For the period up to October 2018- March 2019</td>
                                 <td>16 March 2022</td>
                                 <td><img onClick={() => { downloadReport(require('../Assets/Resources/1.pdf')) }} className='pdf-icon' src="https://upload.wikimedia.org/wikipedia/commons/8/87/PDF_file_icon.svg" alt="" /></td>
                             </tr>
                             <tr>
-                                <td>2</td>
+                                <td>3</td>
                                 <td><b>First Half Compliance Report</b> <br /> For the period April 2019 – September 2019</td>
                                 <td>16 March 2022</td>
                                 <td><img onClick={() => { downloadReport(require('../Assets/Resources/2.pdf')) }} className='pdf-icon' src="https://upload.wikimedia.org/wikipedia/commons/8/87/PDF_file_icon.svg" alt="" /></td>
                             </tr>
                             <tr>
-                                <td>3</td>
+                                <td>4</td>
                                 <td><b>Second Half Compliance Report</b>  <br /> For the period up to October 2019 – March 2020</td>
                                 <td>16 March 2022</td>
                                 <td><img onClick={() => { downloadReport(require('../Assets/Resources/3.pdf')) }} className='pdf-icon' src="https://upload.wikimedia.org/wikipedia/commons/8/87/PDF_file_icon.svg" alt="" /></td>
                             </tr>
                             <tr>
-                                <td>4</td>
+                                <td>5</td>
                                 <td><b>First Half Compliance Report</b>  <br /> For the period April 2020 – September 2020</td>
                                 <td>16 March 2022</td>
                                 <td><img onClick={() => { downloadReport(require('../Assets/Resources/4.pdf')) }} className='pdf-icon' src="https://upload.wikimedia.org/wikipedia/commons/8/87/PDF_file_icon.svg" alt="" /></td>
                             </tr>
                             <tr>
-                                <td>5</td>
+                                <td>6</td>
                                 <td><b>Second Half Compliance Report</b>  <br /> For the period up to October 2020 – March 2021</td>
                                 <td>16 March 2022</td>
                                 <td><img onClick={() => { downloadReport(require('../Assets/Resources/5.pdf')) }} className='pdf-icon' src="https://upload.wikimedia.org/wikipedia/commons/8/87/PDF_file_icon.svg" alt="" /></td>
                             </tr>
 
                             <tr>
-                                <td>6</td>
+                                <td>7</td>
                                 <td><b>First Half Compliance Report</b>  <br /> For the period April 2021 – September 2021</td>
                                 <td>16 March 2022</td>
                                 <td><img onClick={() => { downloadReport(require('../Assets/Resources/6.pdf')) }} className='pdf-icon' src="https://upload.wikimedia.org/wikipedia/commons/8/87/PDF_file_icon.svg" alt="" /></td>
